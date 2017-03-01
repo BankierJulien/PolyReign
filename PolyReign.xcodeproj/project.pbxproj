@@ -14,6 +14,9 @@
 		9A7500A71E6678E4001DE3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */; };
 		9A7500B21E6678E4001DE3D3 /* PolyReignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500B11E6678E4001DE3D3 /* PolyReignTests.swift */; };
 		9A7500BD1E6678E4001DE3D3 /* PolyReignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500BC1E6678E4001DE3D3 /* PolyReignUITests.swift */; };
+		9A7500CF1E667B6D001DE3D3 /* PRDraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500CE1E667B6D001DE3D3 /* PRDraggableView.swift */; };
+		9A7500D11E667B83001DE3D3 /* PRDraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500D01E667B83001DE3D3 /* PRDraggableViewBackground.swift */; };
+		9A7500D31E66810F001DE3D3 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500D21E66810F001DE3D3 /* OverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		9A7500B81E6678E4001DE3D3 /* PolyReignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyReignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7500BC1E6678E4001DE3D3 /* PolyReignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyReignUITests.swift; sourceTree = "<group>"; };
 		9A7500BE1E6678E4001DE3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7500CE1E667B6D001DE3D3 /* PRDraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRDraggableView.swift; sourceTree = "<group>"; };
+		9A7500D01E667B83001DE3D3 /* PRDraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PRDraggableViewBackground.swift; sourceTree = "<group>"; };
+		9A7500D21E66810F001DE3D3 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */,
 				9A75009E1E6678E4001DE3D3 /* ViewController.swift */,
+				9A7500D01E667B83001DE3D3 /* PRDraggableViewBackground.swift */,
+				9A7500CE1E667B6D001DE3D3 /* PRDraggableView.swift */,
+				9A7500D21E66810F001DE3D3 /* OverlayView.swift */,
 				9A7500A01E6678E4001DE3D3 /* Main.storyboard */,
 				9A7500A31E6678E4001DE3D3 /* Assets.xcassets */,
 				9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7500D11E667B83001DE3D3 /* PRDraggableViewBackground.swift in Sources */,
 				9A75009F1E6678E4001DE3D3 /* ViewController.swift in Sources */,
+				9A7500CF1E667B6D001DE3D3 /* PRDraggableView.swift in Sources */,
 				9A75009D1E6678E4001DE3D3 /* AppDelegate.swift in Sources */,
+				9A7500D31E66810F001DE3D3 /* OverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

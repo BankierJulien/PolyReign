@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    
+        var draggableBackground: PRDraggableViewBackground = PRDraggableViewBackground(frame: self.view.frame)
+        draggableBackground.exampleCardLabels.append("TEST")
+        self.view.addSubview(draggableBackground)
+
     }
 
     override func didReceiveMemoryWarning() {
