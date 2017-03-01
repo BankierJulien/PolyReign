@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A75009D1E6678E4001DE3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */; };
+		9A75009F1E6678E4001DE3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75009E1E6678E4001DE3D3 /* ViewController.swift */; };
+		9A7500A21E6678E4001DE3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A01E6678E4001DE3D3 /* Main.storyboard */; };
+		9A7500A41E6678E4001DE3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A31E6678E4001DE3D3 /* Assets.xcassets */; };
+		9A7500A71E6678E4001DE3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */; };
+		9A7500B21E6678E4001DE3D3 /* PolyReignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500B11E6678E4001DE3D3 /* PolyReignTests.swift */; };
+		9A7500BD1E6678E4001DE3D3 /* PolyReignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7500BC1E6678E4001DE3D3 /* PolyReignUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A7500AE1E6678E4001DE3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7500911E6678E4001DE3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7500981E6678E4001DE3D3;
+			remoteInfo = PolyReign;
+		};
+		9A7500B91E6678E4001DE3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A7500911E6678E4001DE3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A7500981E6678E4001DE3D3;
+			remoteInfo = PolyReign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A7500991E6678E4001DE3D3 /* PolyReign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyReign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A75009E1E6678E4001DE3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A7500A11E6678E4001DE3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A7500A31E6678E4001DE3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A7500A61E6678E4001DE3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A7500A81E6678E4001DE3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7500AD1E6678E4001DE3D3 /* PolyReignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyReignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7500B11E6678E4001DE3D3 /* PolyReignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyReignTests.swift; sourceTree = "<group>"; };
+		9A7500B31E6678E4001DE3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7500B81E6678E4001DE3D3 /* PolyReignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolyReignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7500BC1E6678E4001DE3D3 /* PolyReignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolyReignUITests.swift; sourceTree = "<group>"; };
+		9A7500BE1E6678E4001DE3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A7500961E6678E4001DE3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7500AA1E6678E4001DE3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7500B51E6678E4001DE3D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A7500901E6678E4001DE3D3 = {
+			isa = PBXGroup;
+			children = (
+				9A75009B1E6678E4001DE3D3 /* PolyReign */,
+				9A7500B01E6678E4001DE3D3 /* PolyReignTests */,
+				9A7500BB1E6678E4001DE3D3 /* PolyReignUITests */,
+				9A75009A1E6678E4001DE3D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A75009A1E6678E4001DE3D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A7500991E6678E4001DE3D3 /* PolyReign.app */,
+				9A7500AD1E6678E4001DE3D3 /* PolyReignTests.xctest */,
+				9A7500B81E6678E4001DE3D3 /* PolyReignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A75009B1E6678E4001DE3D3 /* PolyReign */ = {
+			isa = PBXGroup;
+			children = (
+				9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */,
+				9A75009E1E6678E4001DE3D3 /* ViewController.swift */,
+				9A7500A01E6678E4001DE3D3 /* Main.storyboard */,
+				9A7500A31E6678E4001DE3D3 /* Assets.xcassets */,
+				9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */,
+				9A7500A81E6678E4001DE3D3 /* Info.plist */,
+			);
+			path = PolyReign;
+			sourceTree = "<group>";
+		};
+		9A7500B01E6678E4001DE3D3 /* PolyReignTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7500B11E6678E4001DE3D3 /* PolyReignTests.swift */,
+				9A7500B31E6678E4001DE3D3 /* Info.plist */,
+			);
+			path = PolyReignTests;
+			sourceTree = "<group>";
+		};
+		9A7500BB1E6678E4001DE3D3 /* PolyReignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A7500BC1E6678E4001DE3D3 /* PolyReignUITests.swift */,
+				9A7500BE1E6678E4001DE3D3 /* Info.plist */,
+			);
+			path = PolyReignUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A7500981E6678E4001DE3D3 /* PolyReign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7500C11E6678E4001DE3D3 /* Build configuration list for PBXNativeTarget "PolyReign" */;
+			buildPhases = (
+				9A7500951E6678E4001DE3D3 /* Sources */,
+				9A7500961E6678E4001DE3D3 /* Frameworks */,
+				9A7500971E6678E4001DE3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolyReign;
+			productName = PolyReign;
+			productReference = 9A7500991E6678E4001DE3D3 /* PolyReign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A7500AC1E6678E4001DE3D3 /* PolyReignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7500C41E6678E4001DE3D3 /* Build configuration list for PBXNativeTarget "PolyReignTests" */;
+			buildPhases = (
+				9A7500A91E6678E4001DE3D3 /* Sources */,
+				9A7500AA1E6678E4001DE3D3 /* Frameworks */,
+				9A7500AB1E6678E4001DE3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7500AF1E6678E4001DE3D3 /* PBXTargetDependency */,
+			);
+			name = PolyReignTests;
+			productName = PolyReignTests;
+			productReference = 9A7500AD1E6678E4001DE3D3 /* PolyReignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A7500B71E6678E4001DE3D3 /* PolyReignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A7500C71E6678E4001DE3D3 /* Build configuration list for PBXNativeTarget "PolyReignUITests" */;
+			buildPhases = (
+				9A7500B41E6678E4001DE3D3 /* Sources */,
+				9A7500B51E6678E4001DE3D3 /* Frameworks */,
+				9A7500B61E6678E4001DE3D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A7500BA1E6678E4001DE3D3 /* PBXTargetDependency */,
+			);
+			name = PolyReignUITests;
+			productName = PolyReignUITests;
+			productReference = 9A7500B81E6678E4001DE3D3 /* PolyReignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A7500911E6678E4001DE3D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Julien Bankier";
+				TargetAttributes = {
+					9A7500981E6678E4001DE3D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9A7500AC1E6678E4001DE3D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A7500981E6678E4001DE3D3;
+					};
+					9A7500B71E6678E4001DE3D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9A7500981E6678E4001DE3D3;
+					};
+				};
+			};
+			buildConfigurationList = 9A7500941E6678E4001DE3D3 /* Build configuration list for PBXProject "PolyReign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A7500901E6678E4001DE3D3;
+			productRefGroup = 9A75009A1E6678E4001DE3D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A7500981E6678E4001DE3D3 /* PolyReign */,
+				9A7500AC1E6678E4001DE3D3 /* PolyReignTests */,
+				9A7500B71E6678E4001DE3D3 /* PolyReignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A7500971E6678E4001DE3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7500A71E6678E4001DE3D3 /* LaunchScreen.storyboard in Resources */,
+				9A7500A41E6678E4001DE3D3 /* Assets.xcassets in Resources */,
+				9A7500A21E6678E4001DE3D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7500AB1E6678E4001DE3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7500B61E6678E4001DE3D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A7500951E6678E4001DE3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A75009F1E6678E4001DE3D3 /* ViewController.swift in Sources */,
+				9A75009D1E6678E4001DE3D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7500A91E6678E4001DE3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7500B21E6678E4001DE3D3 /* PolyReignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A7500B41E6678E4001DE3D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7500BD1E6678E4001DE3D3 /* PolyReignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A7500AF1E6678E4001DE3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7500981E6678E4001DE3D3 /* PolyReign */;
+			targetProxy = 9A7500AE1E6678E4001DE3D3 /* PBXContainerItemProxy */;
+		};
+		9A7500BA1E6678E4001DE3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A7500981E6678E4001DE3D3 /* PolyReign */;
+			targetProxy = 9A7500B91E6678E4001DE3D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A7500A01E6678E4001DE3D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7500A11E6678E4001DE3D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A7500A61E6678E4001DE3D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A7500BF1E6678E4001DE3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A7500C01E6678E4001DE3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A7500C21E6678E4001DE3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PolyReign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulienBankier.PolyReign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A7500C31E6678E4001DE3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PolyReign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulienBankier.PolyReign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A7500C51E6678E4001DE3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PolyReignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulienBankier.PolyReignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolyReign.app/PolyReign";
+			};
+			name = Debug;
+		};
+		9A7500C61E6678E4001DE3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PolyReignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulienBankier.PolyReignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PolyReign.app/PolyReign";
+			};
+			name = Release;
+		};
+		9A7500C81E6678E4001DE3D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PolyReignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulienBankier.PolyReignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PolyReign;
+			};
+			name = Debug;
+		};
+		9A7500C91E6678E4001DE3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PolyReignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JulienBankier.PolyReignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PolyReign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A7500941E6678E4001DE3D3 /* Build configuration list for PBXProject "PolyReign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7500BF1E6678E4001DE3D3 /* Debug */,
+				9A7500C01E6678E4001DE3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A7500C11E6678E4001DE3D3 /* Build configuration list for PBXNativeTarget "PolyReign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7500C21E6678E4001DE3D3 /* Debug */,
+				9A7500C31E6678E4001DE3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A7500C41E6678E4001DE3D3 /* Build configuration list for PBXNativeTarget "PolyReignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7500C51E6678E4001DE3D3 /* Debug */,
+				9A7500C61E6678E4001DE3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A7500C71E6678E4001DE3D3 /* Build configuration list for PBXNativeTarget "PolyReignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A7500C81E6678E4001DE3D3 /* Debug */,
+				9A7500C91E6678E4001DE3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A7500911E6678E4001DE3D3 /* Project object */;
+}
