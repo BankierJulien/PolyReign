@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A75009D1E6678E4001DE3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */; };
-		9A75009F1E6678E4001DE3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75009E1E6678E4001DE3D3 /* ViewController.swift */; };
+		9A75009F1E6678E4001DE3D3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A75009E1E6678E4001DE3D3 /* MainViewController.swift */; };
 		9A7500A21E6678E4001DE3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A01E6678E4001DE3D3 /* Main.storyboard */; };
 		9A7500A41E6678E4001DE3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A31E6678E4001DE3D3 /* Assets.xcassets */; };
 		9A7500A71E6678E4001DE3D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */; };
@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		9A7500991E6678E4001DE3D3 /* PolyReign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PolyReign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A75009E1E6678E4001DE3D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A75009E1E6678E4001DE3D3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		9A7500A11E6678E4001DE3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A7500A31E6678E4001DE3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A7500A61E6678E4001DE3D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,15 +103,12 @@
 		9A75009B1E6678E4001DE3D3 /* PolyReign */ = {
 			isa = PBXGroup;
 			children = (
-				9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */,
-				9A75009E1E6678E4001DE3D3 /* ViewController.swift */,
-				9A7500D01E667B83001DE3D3 /* PRDraggableViewBackground.swift */,
-				9A7500CE1E667B6D001DE3D3 /* PRDraggableView.swift */,
-				9A7500D21E66810F001DE3D3 /* OverlayView.swift */,
+				9A7500D51E668564001DE3D3 /* Supporting Files */,
+				9A75009E1E6678E4001DE3D3 /* MainViewController.swift */,
+				9A7500D41E668544001DE3D3 /* Swipe Function */,
 				9A7500A01E6678E4001DE3D3 /* Main.storyboard */,
 				9A7500A31E6678E4001DE3D3 /* Assets.xcassets */,
 				9A7500A51E6678E4001DE3D3 /* LaunchScreen.storyboard */,
-				9A7500A81E6678E4001DE3D3 /* Info.plist */,
 			);
 			path = PolyReign;
 			sourceTree = "<group>";
@@ -132,6 +129,25 @@
 				9A7500BE1E6678E4001DE3D3 /* Info.plist */,
 			);
 			path = PolyReignUITests;
+			sourceTree = "<group>";
+		};
+		9A7500D41E668544001DE3D3 /* Swipe Function */ = {
+			isa = PBXGroup;
+			children = (
+				9A7500D01E667B83001DE3D3 /* PRDraggableViewBackground.swift */,
+				9A7500CE1E667B6D001DE3D3 /* PRDraggableView.swift */,
+				9A7500D21E66810F001DE3D3 /* OverlayView.swift */,
+			);
+			name = "Swipe Function";
+			sourceTree = "<group>";
+		};
+		9A7500D51E668564001DE3D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A7500A81E6678E4001DE3D3 /* Info.plist */,
+				9A75009C1E6678E4001DE3D3 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A7500D11E667B83001DE3D3 /* PRDraggableViewBackground.swift in Sources */,
-				9A75009F1E6678E4001DE3D3 /* ViewController.swift in Sources */,
+				9A75009F1E6678E4001DE3D3 /* MainViewController.swift in Sources */,
 				9A7500CF1E667B6D001DE3D3 /* PRDraggableView.swift in Sources */,
 				9A75009D1E6678E4001DE3D3 /* AppDelegate.swift in Sources */,
 				9A7500D31E66810F001DE3D3 /* OverlayView.swift in Sources */,

@@ -8,14 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     
-        var draggableBackground: PRDraggableViewBackground = PRDraggableViewBackground(frame: self.view.frame)
-        draggableBackground.exampleCardLabels.append("TEST")
+        let draggableBackground: PRDraggableViewBackground = PRDraggableViewBackground(frame: self.view.frame)
         self.view.addSubview(draggableBackground)
 
     }
